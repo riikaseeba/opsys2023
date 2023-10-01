@@ -1,1 +1,1 @@
-#Ubuntu paigaldus ja LVM seadistus
+# Ubuntu paigaldus ja LVM seadistus
