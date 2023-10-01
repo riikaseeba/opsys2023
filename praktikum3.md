@@ -1,7 +1,10 @@
 # Ubuntu paigaldus ja LVM seadistus
 
-lubuntu:
+Kolmandas praktikumis paigaldasin ja seadistasin Ubuntu 22.04 64-bit ning tutvusin LVM-iga. Üldkokkuvõtteks palju probleeme ei tekkinud, kuid et juhendi järgimine õnnestuks, muutus pisidetailid järgimine väga oluliseks, mis võttis aega. Kõige keerulisem osa oli LVM-partitsiooni suurendamise punkt, kuid hakkama ma sain.
 
+Tehtud ülesannete lahendamiseks ja praktikumi teemadest aru saamiseks kulus mul aega umbes viis tundi. Ubuntu paigalduse, seadistuse, Lubuntuks muutmise ja LVMi laienduse tõestus ehk ekraanitõmmised leiab sellest dokumentatsoonist all pool.
+
+lubuntu:
 <img width="483" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/a8279621-6b68-4c82-ac29-20a85bce1af6">
 
 sudo vgdisplay:
