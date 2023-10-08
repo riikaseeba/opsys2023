@@ -1,5 +1,13 @@
 # Windowsi seadistamine ja turvalisus
 
+Käesolevas praktumis viidi mind kurssi ülevaatega Windowsi seadestest ja põhilistest turvalisusega seotud tööriistadest, turvaseadetest, mitmekasutajasüsteemide turvamisest ning Windows 11 muudatustest.
+
+Praktikumi sooritamisele kulus mul aega umbes 6 tundi. Muidu juhendit rahulikult järgides polnud töö võimatu ja ma jõudsin ära täita kõik 4.1 - 4.10 ülesanded. Keerulisemaks punktiks seekord valisin 4.3, sest kulus aega, et tekstist aru saada, mida mult soovitakse, lisaks veel sellele tegi keeruliseks see, et õige asi, mis oli pisikeselt kirjutatud, saaks üles leitud. 
+
+Peale seda läks aru saamine ülesannetest juba libedamalt. Võimalik, et ma kahtlesin pea iga esitatud ekraanipildi juures, et kas see on ikka õige koht, mida näidata Githubis või mitte, ja kas on vaja ekraanipilti, kus on näha kogu virtuaalmasinat.
+
+Siin aruandes on aga esitatud minu tulemused all pool.
+
 Ülesanne 4-1: 
 <img width="638" alt="praks4 1" src="https://github.com/riikaseeba/opsys2023/assets/144622934/8107ef9c-c37c-4706-8b81-8a1e9a420839">
 
