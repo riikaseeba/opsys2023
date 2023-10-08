@@ -16,3 +16,6 @@
 <img width="385" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/af901bef-4f25-45ad-a5e0-98b3940a6961">
 
 Ülesanne 4-6: Microsofti arvates peaksin Viiruse- ja ohutõrje alamseadistuses häälestama OneDrive'i. "Häälestage OneDrive'i failitaastesuvandid lunavararünnaku korral."
+
+Ülesanne 4-7:
+<img width="960" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/5c2ae22c-07d1-44b0-ac48-2eb8b0838b05">
