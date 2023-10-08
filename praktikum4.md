@@ -5,3 +5,5 @@
 
 Ülesanne 4-5: lisasin pildi kausta tootaja1 õiguste vaatest.
 <img width="385" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/af901bef-4f25-45ad-a5e0-98b3940a6961">
+
+Ülesanne 4-6: Microsofti arvates peaksin Viiruse- ja ohutõrje alamseadistuses häälestama OneDrive'i. "Häälestage OneDrive'i failitaastesuvandid lunavararünnaku korral."
