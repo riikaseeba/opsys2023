@@ -25,3 +25,6 @@
 
 Ülesanne 4-9: 
 <img width="960" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/a9cf82f4-925b-495a-8182-4a5701688bd3">
+
+Ülesanne 4-10: 
+<img width="961" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/82a2fca1-6361-4fac-a2de-6a0d6ce2fe33">
