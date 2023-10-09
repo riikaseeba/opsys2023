@@ -1,4 +1,4 @@
-# Failiõigused Linuxis
+xit# Failiõigused Linuxis
 
 Ülesanne 5-1: 
 
