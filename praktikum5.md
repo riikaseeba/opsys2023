@@ -1,4 +1,9 @@
-xit# Failiõigused Linuxis
+# Failiõigused Linuxis
+
+Käesolevas praktikumis sain ülevaate Unixi failiõigustest ning lahendasin hulgalisest ülesandeid seoses failiõigustega seotud atribuutidest, probleemidest ja võimalustest. Praktikum sooritamine võttis aega natuke vähem, kui 6h. Aega kulus info otsimisele ja sügavuti aru saamisele. 5.4 kuni 5.6 ülesanded olid pisut kergemad, teistele kulus rohkem aega.
+
+Allpool on näha iga ülesande tulemus.
+
 
 **Ülesanne 5-1:** 
 
