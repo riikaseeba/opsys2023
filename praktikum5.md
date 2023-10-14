@@ -38,3 +38,15 @@ Setuid õigus võimaldab piiratud juurdepääsusid süsteemiressurssidele, et sa
 
 Setuid ja setgid failid on ohtlikud, kuna need võivad anda volitamata kasutajale juurdepääsu failile/kataloogile mõne teise kasutaja nimel oleva programmi käitamiseks.,
 
+
+**Ülesanne 5-7:**
+
+Pilt, kus peeter ise proovib eemaldada faili, mis tal ka õnnestub:
+<img width="243" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/77397ddd-9d33-4628-9626-52e848b3e7f9">
+
+Tavakasutaja (minu enda nimeline), ei õnnestu:
+<img width="287" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/9d8d65f8-0e09-429d-8d22-1e3db6d877de">
+
+
+Opetaja, õnnestub:
+<img width="284" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/9d3833ae-b6db-4a38-86d8-9a5aae03c6b5">
