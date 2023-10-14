@@ -50,3 +50,16 @@ Tavakasutaja (minu enda nimeline), ei õnnestu:
 
 Opetaja, õnnestub:
 <img width="284" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/9d3833ae-b6db-4a38-86d8-9a5aae03c6b5">
+
+
+**Ülesanne 5-8:**
+
+<img width="297" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/41fd7fe4-abeb-4d82-a622-d8080f77a904">
+
+
+**Ülesanne 5-9:**
+
+**a)** chattr +i parameetritega faili sisu ei saa keegi kirjutada ega kustutada. See atribuut takistab faili sisu muutmist ja kustutamist, muutes faili "kirjutuskaitstud".
+
+**b)** kõigepealt: **sudo chattr -i testfail-2**
+siis: **rm testfail-2**
