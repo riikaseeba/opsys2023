@@ -17,3 +17,11 @@ Käsuga chmod a=x skriptifail annab kõigile õiguse faili käivitada, kuid sell
 Ülesanne 5-3: 
 
 Omanimeline grupp aitab Unix-põhises operatsioonisüsteemis hallata ja kontrollida kasutajate juurdepääsu failidele ning soodustada koostööd ja turvalisust. See on osa süsteemi õiguste ja turvamudelist ning aitab tõhusalt hallata ressursside jagamist.
+
+
+Ülesanne 5-4:
+
+Kasutajal endal ja grupil "majasisene" peaks olema lugemisõigus. (-r--r-----)
+(Aga kui kasutada käsku sudo cat uusfail.txt, siis on lugemisõigust vaja ainult kasutajal. (-r--------))
+
+<img width="442" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/2c44a37f-8ade-459c-95e9-fe851329bbfa">
