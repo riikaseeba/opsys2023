@@ -32,3 +32,9 @@ Kasutajal endal ja grupil "majasisene" peaks olema lugemisõigus. (-r--r-----)
 Setuid õigus võimaldab piiratud juurdepääsusid süsteemiressurssidele, et saaks käivitada programmi kasutajaõigustega, mis erinevad programmi omaniku tegelikest õigustest.
 
 <img width="339" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/34925ad2-0beb-4e5c-8271-ea3064dd1372">
+
+
+**Ülesanne 5-6:** 
+
+Setuid ja setgid failid on ohtlikud, kuna need võivad anda volitamata kasutajale juurdepääsu failile/kataloogile mõne teise kasutaja nimel oleva programmi käitamiseks.,
+
