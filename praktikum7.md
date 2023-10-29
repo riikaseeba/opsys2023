@@ -32,3 +32,5 @@ käsu ls -la /mnt/ut/public_html väljundi pilt:
 **/dev/sdc2 on /media/riika/riika type ntfs3 ** - /dev/sdc2 on haagitud /media/riika/riika kohale ning sellel on ntfs3 tüüpi failisüsteem.
 
 ## 6. 4TB ketta automaatne ühendamine arvuti käivitumisel
+<img width="523" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/fc35baa8-6f36-4289-b0a2-71d84cdaa1be">
+
