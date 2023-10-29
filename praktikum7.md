@@ -1,4 +1,9 @@
 # Haakimine
+Käesolevas praktikumis uurisin, kuidas lokaalseid ja võrgukettaid Windowsi ja Linuxi keskkonnas kasutada. 
+Sain lahendatud kõik ülesanded ja vastatud kõik ette antud küsimused. Kõige segasemaks jäi viimane ülesanne, kuna polnud kõiges kindel, kas tegin jooksvalt iseseisvat tööd õigesti. Kõige kauem läks aega vastamiseks 5nda teema küsimustele, kuna polnud veel seda teemat endale varasemalt selgeks teinud.
+
+Praktikumi läbimine võttis aega suurusjärgus viis tundi. Üldpildis sain hästi hakkama ilma suuremate probleemidega.
+Tõestus lahendustest leiab siit allpool.
 
 ## 1. Windows 11 Kettahaldus
 ### Miks andmekandjad vajavad lähtestamist? 
