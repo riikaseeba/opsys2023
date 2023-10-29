@@ -15,3 +15,8 @@ GPT sisaldab varukoopiaid partitsioonitabelist, mis muudab selle vastupidavamaks
 
 ## 2. Windows 11 võrgukettad
 https://kodu.ut.ee/~riika/hdd.png
+
+## 3. Serveris asuvate ketaste haakimine Ubuntus
+käsu ls -la /mnt/ut/public_html väljundi pilt:
+
+<img width="278" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/86423657-9dcc-4102-bbb1-a034c7ae7ea0">
