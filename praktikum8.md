@@ -12,3 +12,7 @@ lsblk:
 
 cat /proc/mdstat:
 <img width="280" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/9ae3dab0-f3ed-47ce-a747-24e80c5dcc7c">
+
+_Lisage oma aruandesse jällegi ekraanipildid käskude lsblk ja cat /proc/mdstat väljunditest:_
+
+<img width="364" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/d0b2297b-a8e0-4efa-97ec-51b533ed1004">
