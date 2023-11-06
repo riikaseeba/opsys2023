@@ -4,7 +4,7 @@ _Tehke ekraanipilt mõlemast (nii tervest kui katkisest/(puuduv)) kettast, nii e
 
 ![image](https://github.com/riikaseeba/opsys2023/assets/144622934/07aadcf9-b84c-4753-8cfa-86fcb55926e0)
 
-## RAID 1 Ubuntuga
+### RAID 1 Ubuntuga
 _Lisage aruandesse ekraanipildid käskude lsblk ja cat /proc/mdstat väljunditest._:
 
 lsblk:
@@ -20,4 +20,6 @@ _Lisage oma aruandesse jällegi ekraanipildid käskude lsblk ja cat /proc/mdstat
 ## Nextcloudi varundamine Windows 11-s
 Tehke ekraanipilt sünkroniseeritud kaustast UT\OS\Operatsioonisüsteemid_2023 ja failist nextcloud_test_<eesnimi>.txt Nextcloudi veebiliideses nii, et näha oleks faili nimi, faili sisu (üleval paremas nurgas) ja jagamine õppejõuga:
 
-<img width="960" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/f84e5571-4cea-47c6-bfdd-eaf31e148c43">
+<img width="959" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/50bf0c86-e1e3-43ff-a6d8-f2de08b3b8bb">
+
+### Nextcloudi varundamine Ubuntus
