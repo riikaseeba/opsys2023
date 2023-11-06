@@ -23,3 +23,6 @@ Tehke ekraanipilt sünkroniseeritud kaustast UT\OS\Operatsioonisüsteemid_2023 j
 <img width="959" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/50bf0c86-e1e3-43ff-a6d8-f2de08b3b8bb">
 
 ### Nextcloudi varundamine Ubuntus
+Lisage aruandesse ekraanivaade, kus näha faili sisu ja Properties-akna sisu:
+
+<img width="960" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/db0f44a5-7085-48d5-ae79-d4ab87d67983">
