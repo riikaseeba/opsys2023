@@ -1,4 +1,11 @@
 # RAID ja andmete varundamine
+
+Käesolevas praktikumis sain ühtteist teada RAID-arhitektuurist, mida töötlesin ka praktikas, ning sain paigaldada oma virtuaalmasinatele ka Nextcloudi. 
+
+Selles praktikumi kulus mul siiani kõige rohkem aega ehk 7h. Mul tekkis probleeme RAID 1 süsteemi käsitlemine Ubuntiga, kui juhenditeksti mõstsin valesti ja jäin ringiratast _snapshot_'idega mässama nii kaua, kuni "kala" välja tuli ja probleemi ära lahendasin.
+
+Kõigi ülesannetega olen saanud edukalt hakkama, mille tõestused leiab ka siit aruandest allpool.
+
 ## RAID 1 Windowsiga
 _Tehke ekraanipilt mõlemast (nii tervest kui katkisest/(puuduv)) kettast, nii et oleks näha ka teie punktis 3 kettale K: loodud fail ja selle sisu._:
 
@@ -26,3 +33,7 @@ Tehke ekraanipilt sünkroniseeritud kaustast UT\OS\Operatsioonisüsteemid_2023 j
 Lisage aruandesse ekraanivaade, kus näha faili sisu ja Properties-akna sisu:
 
 <img width="960" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/db0f44a5-7085-48d5-ae79-d4ab87d67983">
+
+## Microsoft OneDrive
+Esitage ekraanivaade tõestamaks, et teil on olemas aktiivne OneDrive failide sünkroniseerimine kohaliku arvuti ja pilveandmete vahel. Vaheleht Settings -> Account:
+<img width="645" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/d4a3a5c4-b787-49f1-97e9-3bf527c1dfc6">
