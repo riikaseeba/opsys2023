@@ -21,16 +21,16 @@ tabeli koostamise abiallikas: https://www.tablesgenerator.com/markdown_tables
 
 | Küsimused 1-11 | Linux  | Windows  | Linuxis kasutatud käsklus	  | Windowsis kasutatud tööriist  |
 |---|---|---|---|---|
-| Mitu protsessi kokku arvutis käib?  |   | 150  |   | Tegumihaldur  |
-| Milline on kõige esimesena käivitatud protsess?  |   |   |   |   |
-| Milliste kasutajate protsesse arvutis käib?   |   |   |   |   |
-| Kui kaua on arvuti järjest töötanud? |   |   |   |   |
-|  Milline protsess käivitati kõige hiljem? |   |   |   |   |
-| Milline on kõige rohkem protsessoriaega võttev protsess?  |   |   |   |   |
-| Milline on kõige rohkem virtuaalmälu  võttev protsess? |   |   |   |   |
-| Milline on kõige rohkem füüsilist mälu võttev protsess?  |   |   |   |   |
-|  Kui palju füüsilisest mälust on vaba? |   |   |   |   |
-|  Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |   |   |   |   |
+| Mitu protsessi kokku arvutis käib?  |   | 145  |   | Tegumihaldur -> jõudlus -> protsessid |
+| Milline on kõige esimesena käivitatud protsess?  |   | smss.exe |   |  Process Explorer -> Start Time |
+| Milliste kasutajate protsesse arvutis käib?   |   | Tavakasutajad (Riika)  |   | Tegumihaldur -> kasutajad  |
+| Kui kaua on arvuti järjest töötanud? |   |  0:01:00:29 |   |Tegumihaldud -> jõudlus -> tööaeg |
+|  Milline protsess käivitati kõige hiljem? |   | svchost.exe  |   | Process Explorer -> Start Time  |
+| Milline on kõige rohkem protsessoriaega võttev protsess?  |   | System Idle Process  |   | Process Explorer -> CPU  |
+| Milline on kõige rohkem virtuaalmälu  võttev protsess? |   | Windows Feature Experience Pack  |   | Tegumihaldur -> rakenduse ajalugu  |
+| Milline on kõige rohkem füüsilist mälu võttev protsess?  |   | Antimalware Service Executable  |   | Tegumihaldur -> mälu  |
+|  Kui palju füüsilisest mälust on vaba? |   | 1,8GB  |   | Tegumihaldur -> jõudlus -> mälu -> saadaval  |
+|  Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |   | 26,8GB ehk  42% |   | File Explorer -> See arvuti -> vaba maht (või parem hiirklahv -> atribuudid -> maht) |
 | Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  |   |   |   |   |
 
 ## küsimused 12-15
