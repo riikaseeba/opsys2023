@@ -58,9 +58,9 @@ tabeli koostamise abiallikas: https://www.tablesgenerator.com/markdown_tables
 
 | Küsimused 1-11 | Linux  | Windows  | Linuxis kasutatud käsklus	  | Windowsis kasutatud tööriist  |
 |---|---|---|---|---|
-| Mitu protsessi kokku arvutis käib?  |   | 145  |   | Tegumihaldur -> jõudlus -> protsessid |
-| Milline on kõige esimesena käivitatud protsess?  |   | smss.exe |   |  Process Explorer -> Start Time |
-| Milliste kasutajate protsesse arvutis käib?   |   | Tavakasutajad (Riika)  |   | Tegumihaldur -> kasutajad  |
+| Mitu protsessi kokku arvutis käib?  | 210  | 145  | ( ps -aux \| wc -l ) | Tegumihaldur -> jõudlus -> protsessid |
+| Milline on kõige esimesena käivitatud protsess?  | /sbin/init splash   | smss.exe | ps axo pid,cmd,comm,etime  |  Process Explorer -> Start Time |
+| Milliste kasutajate protsesse arvutis käib?   | USER, avahi, colord, kernoops, message+, riika, root, rtkit, syslog, systemd+  | Tavakasutajad (Riika)  | ps aux --sort=user \| awk '!seen[$1]++ {print $1}'  | Tegumihaldur -> kasutajad  |
 | Kui kaua on arvuti järjest töötanud? |   |  0:01:00:29 |   |Tegumihaldud -> jõudlus -> tööaeg |
 |  Milline protsess käivitati kõige hiljem? |   | svchost.exe  |   | Process Explorer -> Start Time  |
 | Milline on kõige rohkem protsessoriaega võttev protsess?  |   | System Idle Process  |   | Process Explorer -> CPU  |
