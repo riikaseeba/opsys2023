@@ -14,7 +14,44 @@ Käesolevas praktikumis tutvusin operatsioonisüsteemi ressurssidega. Selle soor
 *  **Autoruns** - täiendus System Configurationile (käsurealt msconfig), mille abil on võimalik saada täpsemat infot kõikide automaatselt käivituvate protsesside ja teenuste kohta. Hea programm kurivara leidmiseks
 *  **WinDirStat** - eraldi paigaldatav programm, mis võimaldab visuaalselt uurida Windows-arvuti ketta kasutust. Kui palju mingi fail või kaust salvestusmahtu enda alla võtab?
 
+
 ### Tööriistad Linuxis
+*  **ps** - näitab hetkel käimasolevaid protsesse. **ps -ef** – näitab kõigi kasutajate protsesside tabelit.
+*  pstree
+*  **top** - kui palju protsessoriaega ja mälu hetkel kasutatakse
+    * top -p pid väljastab info ühe protsessi kohta
+    * top -b -d 5 -n 10 väljastab tulemuse iga 5 (lipp d) sekundi järel kokku 10 (n) korda
+    * top -b -d 5 > logifail kirjutab käsu top tulemuse iga 5 sekundi tagant faili nimega logifail
+    *     https://unix.stackexchange.com/questions/128953/how-to-display-top-results-sorted-by-memory-usage-in-real-time
+*  **htop** - võimaldab kasutada hiirt ja lisab muid mugavusi.
+*  **free** - Informatsioon vaba ja kasutatud mälu kohta
+*  **vmstat** - saalimine ja katkestus
+    * procs – väljastab protsesside arvu, mis on tööks valmis ja ootavad oma korda
+    * memory – mälukasutus (swpd, saalemälu kasutuses, cache – puhvriteks kasutatava mälu hulk, mida saab vajadusel vabastada)
+    * swap – si ja so näitavad, kui palju kirjutatakse ja loetakse kettalt saalemälu
+    * io – bi, bo – sekundis väljundseadmetele kirjutatud ja loetud plokkide arv
+    * sys – siin in – katkestuste arv, cs – kontekstivahetuste arv
+    * cpu – protsessori kasutus (tähistus traditsiooniline: us - user, sy - system, wa - I/O wait, id - idle jne)
+    * df näitab failisüsteemide vabu ressursse, näiteks:
+      *  df -h väljastab info inimloetavas vormis (kasutades mega- ja kilobaite)
+      *  df -i näitab kasutatud ja kasutada olevate i-kirjete (inode) arvu
+    * du näitab kaustade ja failide kasutatud kettamahtu
+      *  sudo du -h --max-depth=1
+      *  du -s /*
+      *  du -a / | sort -n -r | head -n 5
+    *  **cat /proc/vmstat** - tuuma (kernel) poolt näidatavaid andme
+*  mount
+*  netstat
+*  lsof
+
+|Linux   | Windows  |
+|---|---|
+|ps	   | Task Manager  |
+| pstree	| Process Explorer |
+| top	| Task Manager / Process Explorer |
+| free |	Task Manager, Performance tab |
+| mount, df	| My Computer, Disk Manager |
+| vmstat |	Resource Monitor |
 
 ## Ülesanded:
 tabeli koostamise abiallikas: https://www.tablesgenerator.com/markdown_tables
