@@ -73,6 +73,15 @@ tabeli koostamise abiallikas: https://www.tablesgenerator.com/markdown_tables
 ## küsimused 12-15
 ### 12. (ainult Linuxis)
 
+sha1sum /dev/zero | sha1sum /dev/zero - puhul us'ile kulub enim protsessori aega (kõigub 93 ja 97 % vahel)
+
+<img width="589" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/78199439-5dec-4b9e-b39f-64d41b1aa504">
+
+sha1sum /dev/urandom | sha1sum /dev/urandom - puhul sy'le kulub enim protsessori aega (60% ümbruses)
+
+<img width="536" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/bdfee96f-0abd-49f2-8ba4-137c77272d6e">
+
+
 ### 13. (Ainult Windowsis)
 |Küsimus   | vastus  | Kust vastuse sain  |
 |---|---|---|
