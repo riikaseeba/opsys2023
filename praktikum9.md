@@ -61,14 +61,14 @@ tabeli koostamise abiallikas: https://www.tablesgenerator.com/markdown_tables
 | Mitu protsessi kokku arvutis käib?  | 210  | 145  | ( ps -aux \| wc -l ) | Tegumihaldur -> jõudlus -> protsessid |
 | Milline on kõige esimesena käivitatud protsess?  | /sbin/init splash   | smss.exe | ps axo pid,cmd,comm,etime  |  Process Explorer -> Start Time |
 | Milliste kasutajate protsesse arvutis käib?   | USER, avahi, colord, kernoops, message+, riika, root, rtkit, syslog, systemd+  | Tavakasutajad (Riika)  | ps aux --sort=user \| awk '!seen[$1]++ {print $1}'  | Tegumihaldur -> kasutajad  |
-| Kui kaua on arvuti järjest töötanud? |   |  0:01:00:29 |   |Tegumihaldud -> jõudlus -> tööaeg |
-|  Milline protsess käivitati kõige hiljem? |   | svchost.exe  |   | Process Explorer -> Start Time  |
-| Milline on kõige rohkem protsessoriaega võttev protsess?  |   | System Idle Process  |   | Process Explorer -> CPU  |
-| Milline on kõige rohkem virtuaalmälu  võttev protsess? |   | Windows Feature Experience Pack  |   | Tegumihaldur -> rakenduse ajalugu  |
-| Milline on kõige rohkem füüsilist mälu võttev protsess?  |   | Antimalware Service Executable  |   | Tegumihaldur -> mälu  |
-|  Kui palju füüsilisest mälust on vaba? |   | 1,8GB  |   | Tegumihaldur -> jõudlus -> mälu -> saadaval  |
-|  Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |   | 26,8GB ehk  42% |   | File Explorer -> See arvuti -> vaba maht (või parem hiirklahv -> atribuudid -> maht) |
-| Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  |   | Alamkaust: Windows, Fail: Pagefile.sys |   | Alamkaust: Windirstat.exe -> Suurus (Suurem->väiksem), Fail: Windirstat.exe -> Leidsin graafikult suurima kasti ja leidsin vastava faili nime |
+| Kui kaua on arvuti järjest töötanud? |16:57:57 up 3 min   |  0:01:00:29 | w  |Tegumihaldud -> jõudlus -> tööaeg |
+|  Milline protsess käivitati kõige hiljem? | /sbin/init splash  | svchost.exe  |ps -ef   | Process Explorer -> Start Time  |
+| Milline on kõige rohkem protsessoriaega võttev protsess?  | /usr/bin/gnome-shell  | System Idle Process  | ps aux --sort -%cpu  | Process Explorer -> CPU  |
+| Milline on kõige rohkem virtuaalmälu  võttev protsess? | /usr/bin/gnome-shell  | Windows Feature Experience Pack  |ps -aux --sort -vsz   | Tegumihaldur -> rakenduse ajalugu  |
+| Milline on kõige rohkem füüsilist mälu võttev protsess?  | /usr/bin/gnome-shell  | Antimalware Service Executable  |ps -aux --sort -rss  | Tegumihaldur -> mälu  |
+|  Kui palju füüsilisest mälust on vaba? | 74884 K free memory  | 1,8GB  | vmstat -s  | Tegumihaldur -> jõudlus -> mälu -> saadaval  |
+|  Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? | 11GB ehk 52%  | 26,8GB ehk  42% | df --block-size 1G  | File Explorer -> See arvuti -> vaba maht (või parem hiirklahv -> atribuudid -> maht) |
+| Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  | alamkataloog: /usr, fail: /proc/kcore  | Alamkaust: Windows, Fail: Pagefile.sys | alamkaust: sudo du -k -d1 /, fail: sudo find / -type f -printf "%s\t%p\n" \| sort -n \| tail -1  | Alamkaust: Windirstat.exe -> Suurus (Suurem->väiksem), Fail: Windirstat.exe -> Leidsin graafikult suurima kasti ja leidsin vastava faili nime |
 
 ## küsimused 12-15
 ### 12. (ainult Linuxis)
