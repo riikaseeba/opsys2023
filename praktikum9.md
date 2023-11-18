@@ -68,13 +68,27 @@ tabeli koostamise abiallikas: https://www.tablesgenerator.com/markdown_tables
 | Milline on kõige rohkem füüsilist mälu võttev protsess?  |   | Antimalware Service Executable  |   | Tegumihaldur -> mälu  |
 |  Kui palju füüsilisest mälust on vaba? |   | 1,8GB  |   | Tegumihaldur -> jõudlus -> mälu -> saadaval  |
 |  Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |   | 26,8GB ehk  42% |   | File Explorer -> See arvuti -> vaba maht (või parem hiirklahv -> atribuudid -> maht) |
-| Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  |   |   |   |   |
+| Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  |   | Alamkaust: Windows, Fail: Pagefile.sys |   | Alamkaust: Windirstat.exe -> Suurus (Suurem->väiksem), Fail: Windirstat.exe -> Leidsin graafikult suurima kasti ja leidsin vastava faili nime |
 
 ## küsimused 12-15
 ### 12. (ainult Linuxis)
 
 ### 13. (Ainult Windowsis)
+   *   Milline protsess kõige rohkem salvestusseadmele kirjutab?
+       System (Task Manager -> Resource monitor -> Disk -> Write (Sort suurem->väiksem))
+   *   Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab?
+       
+   *   Milline protsess kõige rohkem salvestusseadmelt loeb?
+       svchost.exe (Task Manager -> Resource monitor -> Disk -> Read (Sort suurem->väiksem))
+   *   Millisest failist eelmise küsimuse protsess kõige rohkem loeb?
+        
 
-### 14. (Ainult Windowsis)
+### 14. Millise protsessi poolt tekitatud võrguliiklus on suurima mahuga? (Ainult Windowsis)
+   *   svchost.exe (Networkservice -p), Local IP: 10.0.2.15, Local Port: 50101, Remote IP: 192.168.1.191, Remote Port: 7680, Latency: -
+
+![image](https://github.com/riikaseeba/opsys2023/assets/144622934/920e5599-8e7d-40c7-9929-9059149f431f)
+
+
 
 ### 15. (vali  Linuxis või Windowsis)
+   *   Kõige parem programm on Task Manager, kus saab jälgida protsessori ja mälu kasutust, ketta aktiivsusaega, võrgukasutust ning graafikakaardi kasutust. Neid andmeid saab sorteerida (Suurem kasutus -> väiksem kasutus). Kui arvuti on aeglane siis tuleks jälgida protsessori, mälu ja kettakasutuse andmeid. Kui need on ligidal 100% kasutusele siis tuleks vaadata sorteerimise abil, milline programm antud ressurssi kõige rohkem kasutab ja võimalusel see kinni panna. Kui tegemist on kriitilise protsessiga, mida ei saa kinni panna, siis on juba piirav faktor riistvara, mida käsurea vms kiiremaks muuta ei saa (v.a ülekiirendamine, mis annab marginaalse "boosti")
