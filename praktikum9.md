@@ -1,5 +1,9 @@
 # Ressursihaldus
-Käesolevas praktikumis tutvusin operatsioonisüsteemi ressurssidega. Selle sooritamiseks õpisin esmalt tundma erinevaid tööriistu nii Linuxis ja Windowsis.
+Käesolevas praktikumis tutvusin operatsioonisüsteemi ressurssidega. Selle sooritamiseks õppisin esmalt tundma erinevaid tööriistu nii Linuxis ja Windowsis. Õppisin ka seda, et vastuste leidmine internetist nõuab aega ja kannatust.
+
+Selle praktikumile kulus aega 8+ tundi. Üllatuseks mulle endale tekkis mul probleeme rohkem windowsi ressursihalduse küsimustele. Linuxi kohta infot leida oli kindlasti lihtsam.
+
+Kõikide ülesannete vastused leiab siit samast aruandest alates alampealkirja "Ülesanded" juurest.
 
 ## Vahekokkuvõte enda jaoks
 ### Tööriistad Windowsis 
