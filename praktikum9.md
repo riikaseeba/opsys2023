@@ -1,7 +1,7 @@
 # Ressursihaldus
 Käesolevas praktikumis tutvusin operatsioonisüsteemi ressurssidega. Selle sooritamiseks õppisin esmalt tundma erinevaid tööriistu nii Linuxis ja Windowsis. Õppisin ka seda, et vastuste leidmine internetist nõuab aega ja kannatust.
 
-Selle praktikumile kulus aega 8+ tundi. Üllatuseks mulle endale tekkis mul probleeme rohkem windowsi ressursihalduse küsimustele. Linuxi kohta infot leida oli kindlasti lihtsam.
+Selle praktikumile kulus aega 8+ tundi. Üllatuseks mulle endale tekkis mul probleeme rohkem windowsi ressursihalduse küsimustele. Linuxi kohta infot leida oli lihtsam.
 
 Kõikide ülesannete vastused leiab siit samast aruandest alates alampealkirja "Ülesanded" juurest.
 
@@ -90,10 +90,11 @@ sha1sum /dev/urandom | sha1sum /dev/urandom - puhul sy'le kulub enim protsessori
 |Küsimus   | vastus  | Kust vastuse sain  |
 |---|---|---|
 | Milline protsess kõige rohkem salvestusseadmele kirjutab?  | System  | (Task Manager -> Resource monitor -> Disk -> Write (Sort suurem->väiksem))  | 
-|   Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab?  |   |   | 
-| Milline protsess kõige rohkem salvestusseadmelt loeb?  | svchost.exe  | (Task Manager -> Resource monitor -> Disk -> Read (Sort suurem->väiksem))  | 
-| Millisest failist eelmise küsimuse protsess kõige rohkem loeb?  |   |   |
+|   Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab?  |DataStore.edb  | Resource monitor -> Disk activity -> Write (suurem -> väiksem) | 
+| Milline protsess kõige rohkem salvestusseadmelt loeb?  | perfmon.exe | (Task Manager -> Resource monitor -> Disk -> Read (Sort suurem->väiksem))  | 
+| Millisest failist eelmise küsimuse protsess kõige rohkem loeb?  | dsreg.dll.mui | Resource monitor -> Disk activity -> File (suurem -> väiksem)  |
         
+<img width="393" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/6420d2d0-7b69-4e92-8cce-33d85c6dd5c9">
 
 ### 14. Millise protsessi poolt tekitatud võrguliiklus on suurima mahuga? (Ainult Windowsis)
 |Küsimus   | vastus  | Kust vastuse sain  |
