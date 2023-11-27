@@ -1,19 +1,16 @@
 # Sissejuhatus võrgutehnoloogiasse
 
- Käesoleva praktikumi tutvusin IP-pakettide ruutimisega läbi mitme võrguseadme (ehk uurisin läbi lihtsustatud näite seadistamise, kuidas internet jõuab teie arvutisse). 
- Praktikum toimus mitme virtuaalse Linuxi arvutiga, mille puhul avanes mul võimalus matkida struktuuri, kus lõppkasutaja peab "laia Internetiga" ühendamiseks pakette saatma läbi mitme võrgu. Eesmärk oli ühendada Internetiga kahe ruuteri taga olev klientarvuti.
+Käesolevaas praktikumis tutvusin IP-pakettide ruutimisega läbi mitme võrguseadme (ehk uurisin läbi lihtsustatud näite seadistamise, kuidas internet jõuab teie arvutisse). 
+Praktikum toimus mitme virtuaalse Linuxi arvutiga, mille puhul avanes mul võimalus matkida struktuuri, kus lõppkasutaja peab "laia Internetiga" ühendamiseks pakette saatma läbi mitme võrgu. Eesmärk oli ühendada Internetiga kahe ruuteri taga olev klientarvuti.
 
+Probleeme aga tekkis aina juurde ning ära suutsin lahendada punktini vahetult enne lõppu. Arusaamatuks jäi, miks ei töötanud lõpus 'ping www.neti.ee' ja 'mtr www.neti.ee' käsud. Nuputasin selle probleemi üle päris mitu tundi ning lõpuks ma ta ka ära lahendasin.
 
-Probleeme aga tekkis aina juurde ning ära suutsin lahendada punktini vahetult enne lõppu. Arusaamatuks jäi, miks ei töötanud lõpus 'ping www.neti.ee' ja 'mtr www.neti.ee' käsud. Nuputasin selle probleemi üle päris mitu tundi, lahendus ei jõudnud kahjuks pärale.
- 
-Esitan siiski pildid alla poole selleks, et näidata, et olen jõudnud vähemalt kuhugi, aga ei tea, kas lahendasin praktikumi õiget teed pidi.
+Praktikumile kulus aega umbes 8 tundi. 
 
-## Ülesande lahendusest pildid
-### ruuter1
-<img width="332" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/80e14b52-ccd5-425c-9532-09661c39aee6">
+## Illustratiivne joonis 10ndale praktikumile
+![image](https://github.com/riikaseeba/opsys2023/assets/144622934/91253b17-dea8-4f6b-8717-9a24edb619cf)
 
-### ruuter2
-<img width="325" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/9637ea48-8644-45d5-bfd1-21de2c10b8aa">
+## Ülesande lahendusest pilt
 
 ### klient
-<img width="325" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/ec3a4e20-f957-4886-a808-52e46500e969">
+<img width="325" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/f0e2b92e-6884-4ab6-8e9e-88d73f8a31d3">
