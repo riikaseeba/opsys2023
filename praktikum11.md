@@ -15,3 +15,6 @@ Vastus: vikilehe leiab siit: https://github.com/riikaseeba/opsys2023/wiki
 
 ### Ülesanned 2
 <img width="481" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/59ad0d39-fcf4-4e69-9bdf-12c114205776">
+
+### Ülesanne 3
+Vastus: vikilehe leiab siit: https://github.com/riikaseeba/opsys2023/wiki
