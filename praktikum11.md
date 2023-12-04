@@ -19,3 +19,5 @@ Vastus: vikilehe leiab siit: https://github.com/riikaseeba/opsys2023/wiki
 
 ### Ülesanne 3
 Vastus: vikilehe leiab siit: https://github.com/riikaseeba/opsys2023/wiki
+
+### Ülesanne 4
