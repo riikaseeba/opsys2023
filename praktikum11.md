@@ -1,6 +1,6 @@
 # Rakenduskihi protokollid
 
-algusaeg 8:30
+algusaeg 8:30, paus 10.00
 
 Esimene viperus puttyga SSH ühenduse loomine (programmi leidmine puttyst). 
 C:\Windows\System32\drivers\etc\hosts faili ei osanud seadistada nii, et saaksin faili kirjutada ja salvestada. - sain hakkama cmd's adiministraatorina.
