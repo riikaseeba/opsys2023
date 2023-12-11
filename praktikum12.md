@@ -21,16 +21,29 @@ Käesolev praktikum annab ülevaate käsurea skriptide loomisest Linuxis.
 ### Ülesanne 3
 #!/bin/sh
 
+
+
+
 echo "Sisesta oma nimi:"
+
 read nimi
+
 echo "Sisesta oma eriala:"
+
 read eriala
+
 echo "Sisesta oma martiklinumber"
+
 read martiklinumber
 
 echo "Tere, $nimi!"
+
 echo "$nimi õpib erialal $eriala."
+
 echo "Tema martiklinumber on $martiklinumber"
+
+
+
 
 
 
