@@ -1,12 +1,10 @@
 # Skriptimine Linuxis
-Käesolev praktikum annab ülevaate käsurea skriptide loomisest Linuxis. 
+Käesolev praktikum andis ülevaate käsurea skriptide loomisest Linuxis. 
 
+Praktikumi sooritamine sujus ilma suuremate probleemideta. Praktikumi sooritajal kulus aega ligi neli tundi.
+Lahenduste vastused leiab siit aruandest allpool.
 
-## Ajaarvamine
-* 9:00 - 10:30
-* 11:00 - 12:30
-* 13:15 - 14:15
-
+Head hindamist praktikumi juhendajale!
 
 ## Sisu kordamiseks
 * Skriptide loomine ja käivitamine
