@@ -15,14 +15,15 @@ Käesolev praktikum annab ülevaate käsurea skriptide loomisest Linuxis.
 * Interaktiivne sisend
   * küsida kasutaja käest täiendavat informatsiooni (näiteks failinime), saab kasutada read-käsku
 * Juhtvood
+  * IF-ELSE: NB! Pööra tähelepanu nurksulgude ees ja järel tühikute kasutamisele!
+  * While: While-tsükli sisu korratakse seni, kuni tingimus on tõene
+  * For: nimekirja või listi läbi vaatamiseks, NB! Kui tegemist on teksti sisaldavate muutujatega, siis on soovitav muutuja kasutamisel ümbritseda see jutumärkidega nii: echo "$i"
 * Funktsioonid
+  * 
 * Skriptimine ja AI
 
 ### Ülesanne 3
 #!/bin/sh
-
-
-
 
 echo "Sisesta oma nimi:"
 
@@ -42,8 +43,29 @@ echo "$nimi õpib erialal $eriala."
 
 echo "Tema martiklinumber on $martiklinumber"
 
+### Ülesanne 4
+#!/bin/bash
 
+kaust=$1
 
+algne_laiend=$2
 
+uus_laiend=$3
 
+for fail in "$kaust"/*"$algne_laiend"
 
+do
+
+    if [ -f "$fail" ]
+
+    then
+
+        uus_nimi=$(basename "$fail" "$algne_laiend")"$uus_laiend"
+
+        mv "$fail" "$kaust"/"$uus_nimi"
+
+        echo "Fail $fail nimetati ümber $uus_nimi failiks."
+
+    fi
+
+done
