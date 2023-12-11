@@ -25,52 +25,49 @@ Käesolev praktikum annab ülevaate käsurea skriptide loomisest Linuxis.
 * Skriptimine ja AI
 
 ### Ülesanne 3
-#!/bin/sh
-
-echo "Sisesta oma nimi:"
-
-read nimi
-
-echo "Sisesta oma eriala:"
-
-read eriala
-
-echo "Sisesta oma martiklinumber"
-
-read martiklinumber
-
-echo "Tere, $nimi!"
-
-echo "$nimi õpib erialal $eriala."
-
-echo "Tema martiklinumber on $martiklinumber"
+    #!/bin/sh
+    
+    echo "Sisesta oma nimi:"
+    
+    read nimi
+    
+    echo "Sisesta oma eriala:"
+    
+    read eriala
+    
+    echo "Sisesta oma martiklinumber"
+    
+    read martiklinumber
+    
+    echo "Tere, $nimi!"
+    
+    echo "$nimi õpib erialal $eriala."
+    
+    echo "Tema martiklinumber on $martiklinumber"
 
 <img width="246" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/ce4223dc-1426-41d2-b2ff-906a906b101c">
 
 
 ### Ülesanne 4
-#!/bin/bash
+    #!/bin/bash
+    
+    read -p "Sisesta algne laiend (näiteks .txt): " laiend1
+    
+    read -p "Sisesta uus laiend (näiteks .csv): " laiend2
+    
+    for fail in *$laiend1; do
+    
+      if [ "${fail##*.}" = "${laiend1:1}" ]; then
+    
+        uus_nimi="${fail/$laiend1/$laiend2}"
+    
+        mv "$fail" "$uus_nimi"
+    
+      fi
+    
+    done
+    
+    echo "Kõik $laiend1 failid on ümber nimetatud laiendiks $laiend2."
 
+<img width="372" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/0473d421-923e-4732-9386-5bd88ba0b136">
 
-
-read -p "Sisesta algne laiend: " laiend1
-
-read -p "Sisesta uus laiend: " laiend2
-
-
-
-for fail in $(ls); do
-
-  if [ "${fail##*.}" = "${laiend1:1}" ]; then
-
-    uus_nimi="${fail/$laiend1/$laiend2}"
-
-    mv "$fail" "$uus_nimi"
-
-  fi
-
-done
-
-echo "Kõik $laiend1 failid on ümber nimetatud laiendiks $laiend2."
-
-<img width="273" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/14aadb1a-8d56-454b-8a29-679d53f620ea">
