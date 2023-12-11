@@ -71,3 +71,22 @@ Käesolev praktikum annab ülevaate käsurea skriptide loomisest Linuxis.
 
 <img width="372" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/0473d421-923e-4732-9386-5bd88ba0b136">
 
+### Ülesanne 5
+
+    #!/bin/bash
+    
+    protsessi_nimi=$1
+    
+    IFS=$'\n'
+    
+    for line in $(ps -A | grep "$protsessi_nimi"); do
+    
+            pid=$(echo " ""$line" | tr -s ' ' | cut -d ' ' -f2)
+    
+            nimi=$(echo " ""$line" | tr -s ' ' | cut -d ' ' -f5)
+    
+            echo "$nimi: $pid"
+    
+    done
+
+<img width="261" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/2ed1beec-6670-4fc6-8faf-94b648c0b810">
