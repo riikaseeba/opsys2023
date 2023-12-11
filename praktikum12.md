@@ -1,10 +1,11 @@
 # Skriptimine Linuxis
-Käesolev praktikum annab ülevaate käsurea skriptide loomisest Linuxis.
+Käesolev praktikum annab ülevaate käsurea skriptide loomisest Linuxis. 
+
 
 ## Ajaarvamine
 * 9:00 - 10:30
 * 11:00 - 12:30
-* 13:15 - 
+* 13:15 - 14:15
 
 
 ## Sisu kordamiseks
@@ -82,3 +83,9 @@ Käesolev praktikum annab ülevaate käsurea skriptide loomisest Linuxis.
 <img width="372" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/ac49fa4c-c980-445c-b8d3-ec510829a324">
 
 ### Ülesanne 7
+
+* minu küsimus:
+  * <img width="953" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/b4b75eb6-bba7-490e-9aa3-e1704749257b">
+* microsoft bing vastus:
+  * <img width="958" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/0355c51b-75cc-459f-9cc2-0520d1096442">
+
