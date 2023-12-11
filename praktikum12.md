@@ -2,7 +2,9 @@
 Käesolev praktikum annab ülevaate käsurea skriptide loomisest Linuxis.
 
 ## Ajaarvamine
-* 9:00 -10:30
+* 9:00 - 10:30
+* 11:00 - 12:30
+* 
 
 
 ## Sisu
@@ -46,26 +48,26 @@ echo "Tema martiklinumber on $martiklinumber"
 ### Ülesanne 4
 #!/bin/bash
 
-kaust=$1
+laiend1="$1" 
 
-algne_laiend=$2
+laiend2="$2" 
 
-uus_laiend=$3
 
-for fail in "$kaust"/*"$algne_laiend"
+
+for i in $(ls)
 
 do
 
-    if [ -f "$fail" ]
+    if [ "${i##*.}" = "$laiend1" ]
 
     then
 
-        uus_nimi=$(basename "$fail" "$algne_laiend")"$uus_laiend"
+        echo "Leitud fail $i"
 
-        mv "$fail" "$kaust"/"$uus_nimi"
-
-        echo "Fail $fail nimetati ümber $uus_nimi failiks."
+        mv "$i" "${i/$laiend1/$laiend2}"
 
     fi
 
 done
+
+
