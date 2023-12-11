@@ -45,29 +45,32 @@ echo "$nimi õpib erialal $eriala."
 
 echo "Tema martiklinumber on $martiklinumber"
 
+<img width="246" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/ce4223dc-1426-41d2-b2ff-906a906b101c">
+
+
 ### Ülesanne 4
 #!/bin/bash
 
-laiend1="$1" 
-
-laiend2="$2" 
 
 
+read -p "Sisesta algne laiend: " laiend1
 
-for i in $(ls)
+read -p "Sisesta uus laiend: " laiend2
 
-do
 
-    if [ "${i##*.}" = "$laiend1" ]
 
-    then
+for fail in $(ls); do
 
-        echo "Leitud fail $i"
+  if [ "${fail##*.}" = "${laiend1:1}" ]; then
 
-        mv "$i" "${i/$laiend1/$laiend2}"
+    uus_nimi="${fail/$laiend1/$laiend2}"
 
-    fi
+    mv "$fail" "$uus_nimi"
+
+  fi
 
 done
 
+echo "Kõik $laiend1 failid on ümber nimetatud laiendiks $laiend2."
 
+<img width="273" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/14aadb1a-8d56-454b-8a29-679d53f620ea">
