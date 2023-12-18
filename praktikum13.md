@@ -26,36 +26,14 @@ vaid objektid.
 
 
 ### Ülesanne 1
-    #$nr:	küsimuse number
-    #$param: mis parameetriga tegemist (võimalikult lühidalt)
-    #$sisu:	väljastatav sisu
-    function valjasta{
-    	param ($nr, $param, $sisu)
-    	$fail = ".\tulemus.txt"
-    	$aeg = Get-Date -Format "HH:mm:ss.fff"
-    	if($sisu -eq $null){
-    		$rida = "$nr.	$aeg	${param}:	NULL"
-    		Write-Output $rida
-    		$rida | Out-File -FilePath $fail -Append
-    	}elseif($sisu.GetType().Name -eq "Object[]"){
-    		$rida = "$nr.	$aeg	${param}:"
-    		Write-Output $rida $sisu
-    		$rida | Out-File -FilePath $fail -Append
-    		$sisu | Out-File -FilePath $fail -Append
-    	}else{
-    		$rida = "$nr.	$aeg	${param}:	$sisu"
-    		Write-Output $rida
-    		$rida | Out-File -FilePath $fail -Append
-    	}
-    }
-    
-    [int]$aegA = (Get-Date).Millisecond
-    Valjasta 0 "ALGUS" ("Aeg: "+(Get-Date -Format "dddd MM/dd/yyyy HH:mm K")+" Teostaja: Riika")
-    Valjasta 1 "host" (hostname)
-    
-    #Tee oma tegevused ja väljasta tulemused funktsiooni abil (võib funktsiooni ise täiendada soovi korral)
-    #...
-    
+Väljund failis:
+
+    Masina nimi: Seeba-W11 
+    PowerShelli versioon: 5.1.22621.2506 
+    Windowsi versioon: 10.0.22631.0
+
+Skript:
+
     # Masina nimi
     $hostname = hostname
     
@@ -70,3 +48,57 @@ vaid objektid.
     $info | Out-File -FilePath .\yl1
 
 ### Ülesanne 2
+Väljund failis:
+
+    IP-aadress: 10.0.2.15
+    Võrgumask: 255.255.255.0
+    Gateway: 10.0.2.2
+    DHCP lubatud: True False
+    MAC-aadress: 08:00:27:CC:C8:FB 02:50:41:00:00:01
+
+Skript:
+
+    # Skripti algus
+    $networkInfo = Get-WmiObject -Class Win32_NetworkAdapterConfiguration -Filter IPEnabled=TRUE
+    
+    # Võrguinfo kogumine
+    $ipAddress = $networkInfo.IPAddress[0]
+    $subnetMask = $networkInfo.IPSubnet[0]
+    $defaultGateway = $networkInfo.DefaultIPGateway[0]
+    $dhcpEnabled = $networkInfo.DHCPEnabled
+    $macAddress = $networkInfo.MACAddress
+    
+    # Info väljastamine
+    $info = @"
+    IP-aadress: $ipAddress
+    Võrgumask: $subnetMask
+    Gateway: $defaultGateway
+    DHCP lubatud: $dhcpEnabled
+    MAC-aadress: $macAddress
+    "@
+    
+    # Info kirjutamine faili
+    $info | Out-File -FilePath .\v6rgu_info.txt
+
+### Ülesanne 3
+Väljund failis:
+
+    Protsessori kirjeldus: x64-based PC
+    Põhimälu RAM kogus (GB): 4.48
+
+Skript:
+
+    $computerSystem = Get-WmiObject -Class Win32_ComputerSystem
+    
+    # Arvutiinfo kogumine
+    $processorDescription = $computerSystem.SystemType
+    $totalPhysicalMemory = [math]::Round(($computerSystem.TotalPhysicalMemory / 1GB), 2)
+    
+    # Info väljastamine
+    $info = @"
+    Protsessori kirjeldus: $processorDescription
+    Põhimälu RAM kogus (GB): $totalPhysicalMemory
+    "@
+    
+    # Info kirjutamine faili
+    $info | Out-File -FilePath .\arvuti.txt
