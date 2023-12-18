@@ -26,3 +26,47 @@ vaid objektid.
 
 
 ### Ülesanne 1
+    #$nr:	küsimuse number
+    #$param: mis parameetriga tegemist (võimalikult lühidalt)
+    #$sisu:	väljastatav sisu
+    function valjasta{
+    	param ($nr, $param, $sisu)
+    	$fail = ".\tulemus.txt"
+    	$aeg = Get-Date -Format "HH:mm:ss.fff"
+    	if($sisu -eq $null){
+    		$rida = "$nr.	$aeg	${param}:	NULL"
+    		Write-Output $rida
+    		$rida | Out-File -FilePath $fail -Append
+    	}elseif($sisu.GetType().Name -eq "Object[]"){
+    		$rida = "$nr.	$aeg	${param}:"
+    		Write-Output $rida $sisu
+    		$rida | Out-File -FilePath $fail -Append
+    		$sisu | Out-File -FilePath $fail -Append
+    	}else{
+    		$rida = "$nr.	$aeg	${param}:	$sisu"
+    		Write-Output $rida
+    		$rida | Out-File -FilePath $fail -Append
+    	}
+    }
+    
+    [int]$aegA = (Get-Date).Millisecond
+    Valjasta 0 "ALGUS" ("Aeg: "+(Get-Date -Format "dddd MM/dd/yyyy HH:mm K")+" Teostaja: Riika")
+    Valjasta 1 "host" (hostname)
+    
+    #Tee oma tegevused ja väljasta tulemused funktsiooni abil (võib funktsiooni ise täiendada soovi korral)
+    #...
+    
+    # Masina nimi
+    $hostname = hostname
+    
+    # PowerShelli versioon
+    $powershell_version = $PSVersionTable.PSVersion
+    
+    # Windowsi versioon
+    $windows_version = [System.Environment]::OSVersion.Version
+    
+    # Info salvestamine faili
+    $info = "Masina nimi: $hostname `nPowerShelli versioon: $powershell_version `nWindowsi versioon: $windows_version"
+    $info | Out-File -FilePath .\yl1
+
+### Ülesanne 2
