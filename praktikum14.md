@@ -45,9 +45,9 @@ Sassi läksid algul perenimi ja eesnimi ning praktikumi vahepeal tekkis suur seg
 ![image](https://github.com/riikaseeba/opsys2023/assets/144622934/425792ca-ca4a-4316-9dc3-d883acfa2868)
 
 ### Ülesanne 6
-Ei jõudnud kahjuks õigel ajal ära lahendada. 
-Põhjus on see, kuna windows jäi aeglaseks ja jooksis natuke kokku, siis sahmimise tulemuseks on see:
 
-<img width="656" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/4c2244d2-ff1b-42a3-beac-13cbaf148282">
+WSL:
+![image](https://github.com/riikaseeba/opsys2023/assets/144622934/d8599592-342c-4589-a893-1a9b6fbf785b)
+
 
 
