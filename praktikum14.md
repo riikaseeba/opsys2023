@@ -33,3 +33,7 @@ Minul juhtus midagi oma virtuaalse masinaga (jooksis kokku) ning ma pidin masina
 <img width="771" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/68b3cff3-7814-4997-a574-4b0293c53b56">
 <img width="702" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/1d6554c9-b267-46da-b188-0b85502d8bad">
 
+### Ülesanne 3:_Minge Settings -> System -> About ning tehke ekraanivaade kogu RDP aknast_
+
+Juhtus nii, et perenimi-admin on minul eesnimega.
+![image](https://github.com/riikaseeba/opsys2023/assets/144622934/3454f1cb-a48c-4831-a889-cc2429b5d674)
