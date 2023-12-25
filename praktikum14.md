@@ -19,3 +19,12 @@ Täpsemalt Windows 11 virtuaalmasina loomine, sellega ühendumine ja sinna peale
    *  Azure’i ressursside rühm on loogiline konteiner, mis hoiab seotud ressursse Azure’i lahenduse jaoks.
      Ressursside rühm võib sisaldada kõiki lahenduse ressursse või ainult neid ressursse, mida soovite rühmana hallata3.
      Otsustate, kuidas soovite ressursse ressursside rühmadele jaotada, lähtudes sellest, mis teie organisatsiooni jaoks kõige mõttekam on3.
+
+          minu parool: eakxuut6Mj19
+          username: riika-admin
+
+### Ülesanne 1: _Tehke Azure virtuaalmasina ülevaateaknast Essentials ekraanivaade_
+
+![image](https://github.com/riikaseeba/opsys2023/assets/144622934/b2209857-8ea2-49a8-a8f4-d04791ec91b7)
+
+Ülesanne 2: Tehke Azure virtuaalmasina ülevaateaknast Properties ekraanivaade
