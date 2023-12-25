@@ -37,3 +37,7 @@ Minul juhtus midagi oma virtuaalse masinaga (jooksis kokku) ning ma pidin masina
 
 Juhtus nii, et perenimi-admin on minul eesnimega.
 ![image](https://github.com/riikaseeba/opsys2023/assets/144622934/3454f1cb-a48c-4831-a889-cc2429b5d674)
+
+### Ülesanne 4: _Avage powershell abil ühendus enda Azure pilvearvuti ja tehke ekraanivaade kogu powershelli aknast_
+
+<img width="611" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/f4bc0b74-cf63-4e1c-a199-eeee1eb6490d">
