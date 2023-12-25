@@ -27,4 +27,6 @@ Täpsemalt Windows 11 virtuaalmasina loomine, sellega ühendumine ja sinna peale
 
 ![image](https://github.com/riikaseeba/opsys2023/assets/144622934/b2209857-8ea2-49a8-a8f4-d04791ec91b7)
 
-Ülesanne 2: Tehke Azure virtuaalmasina ülevaateaknast Properties ekraanivaade
+### Ülesanne 2: Tehke Azure virtuaalmasina ülevaateaknast Properties ekraanivaade
+Minul juhtus midagi oma virtuaalse masinaga (jooksis kokku) ning ma pidin masina peatama. Juhtus aga nii, et masin ei läinud enam tööle. olin sunnitud eelneva snapshoti pealt uuesti alustama. Loodan et krediit ei kao.
+
