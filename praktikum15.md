@@ -11,4 +11,5 @@ Käesoleva praktikumi teemad on Docker, Visual Studio Code, Visual Studio Code d
 # Ülesanne 2: _Tehke ekraanivaade Persisting our DB viimase harjutuse docker volume inspect todo-db WSLi käsureal nii, et teie nimi oleks käsureal nähtav._
 <img width="319" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/2ad2e6bf-d62a-4cc8-9bf6-9ced8dfcdde6">
 
-# 
+# Ülesanne 3: _Esitage ekraanivaade, kus Azure pilves jookseb teie harjutuse ToDo konteiner rakendus, mis sisaldab teie nime._
+<img width="958" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/a9d27cc6-ef82-4448-bac5-6e0079e03bea">
