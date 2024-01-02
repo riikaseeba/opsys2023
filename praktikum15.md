@@ -1,10 +1,13 @@
 # Docker konteinerid
 
 Käesoleva praktikumi teemad on Docker, Visual Studio Code, Visual Studio Code devcontainers, ja Azures Container Instances. 
+Praktikumile kulus aega umbes kuus ja pool tundi. 
+Raskusi tekkis otsustamisega, millisel käsureal, kus terminalis on vaja ülesandeid sooritada ning kulus aega detailide üle kontrollimisele.
+Töö sujus hästi.
+Siiani olen oma praktikumide kogemuse ja tulemustega väga rahul.
 
-  *  algusaeg  - 14.42
-  *  paus  - 17-19
-  *  lõpp - 
+Head lugemist!
+
 
 ## Ülesanne 1: _Esitage ekraanivaade Dockeri näidis ToDo rakendusest, kus veebilehe pealkiri sisaldab teie perenime ja hoiatusteadet, et pole ühtegi ToDo kirjet teie eesnime_
 <img width="392" alt="image" src="https://github.com/riikaseeba/opsys2023/assets/144622934/59020c5e-827c-482a-aba7-7e96a712ce62">
@@ -25,3 +28,9 @@ Käesoleva praktikumi teemad on Docker, Visual Studio Code, Visual Studio Code d
 
 
 ### Ülesanne 4b: _Esitage arvutuskäik ja rahaline hinnang kui palju maksaks Windows 11 ja Ubuntu virtuaalmasinate hoiustamine ja jooksutamine Azure pilves 4 kuulise operatsioonisüsteemid kursuse raames? Teisisõnu, kui Virtualbox asemel oleksime kõik praktikumid sooritanud Azure või sarnasel pilveteenusel, siis kui palju oleks see ühe tudengi kohta maksma läinud?_
+ * Oma viimase kasutuse järgi arvutades kujuneks summa selliselt:
+   * (2,99 + 1,30)/2 _(14. ja 15. praktikum)_ * 15 _(kõik praktikumid)_ = 32.175 eurot
+ * azure'i _pricing calculator_'i abil on kujunes summa nii (kui masinate kasutusele kuluks 5h nädalas):
+   * windowsi masina eest 4kuud * 19eurot = 76eurot
+   * linuxi masina eest 4kuud * 10,70eurot = 42,8eurot
+   * hinnanguliselt kokku 118,8 eurot tudengi kohta
